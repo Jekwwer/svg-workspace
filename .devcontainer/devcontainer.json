@@ -1,0 +1,69 @@
+{
+  "name": "jekwwer/markdown-workspace",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installTools": true,
+      "version": "3.12"
+    }
+  },
+  "postCreateCommand": "npm install && pip install pre-commit && pre-commit install",
+  "forwardPorts": [
+    8888
+  ],
+  "portsAttributes": {
+    "8888": {
+      "label": "mkdocs-server",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "jock.svg",
+        "ms-vscode-remote.remote-containers",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "[css]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[html]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[markdown]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "[svg]": {
+          "editor.rulers": [
+            120
+          ]
+        },
+        "editor.fontSize": 14,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+          88
+        ],
+        "files.autoSave": "onFocusChange",
+        "files.autoSaveWhenNoErrors": true,
+        "npm.packageManager": "npm",
+        "prettier.prettierPath": "./node_modules/prettier",
+        "prettier.configPath": "./.prettierrc",
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
