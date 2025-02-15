@@ -1,0 +1,47 @@
+{
+  "name": "jekwwer-svg-workspace",
+  "version": "0.0.0-dev",
+  "description": "A minimal template for SVG projects with a ready-to-use devcontainer, VS Code settings, and essential repo files.",
+  "keywords": [
+    "github",
+    "devcontainer",
+    "vscode",
+    "svg",
+    "template",
+    "development-environment",
+    "project-template"
+  ],
+  "homepage": "https://github.com/Jekwwer/svg-workspace#readme",
+  "bugs": {
+    "url": "https://github.com/Jekwwer/svg-workspace/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekwwer/svg-workspace.git"
+  },
+  "license": "MIT",
+  "author": "Jekwwer",
+  "scripts": {
+    "check:spelling": "cspell '**/*.md' --gitignore --cache",
+    "format:code": "prettier --write --config .prettierrc .",
+    "format:check": "prettier --check --config .prettierrc .",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^7.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "conventional-changelog": "^6.0.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "cspell": "^8.17.3",
+    "prettier": "^3.5.1",
+    "semantic-release": "^24.2.1"
+  },
+  "overrides": {
+    "got": "^11.8.5",
+    "marked": "^4.0.10"
+  }
+}
