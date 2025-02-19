@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2025-02-19
+### 📦 Dependency Updates
+
+* **npm:** bump semantic-release from 24.2.2 to 24.2.3 ([#1](https://github.com/Jekwwer/svg-workspace/issues/1)) ([0651f83](https://github.com/Jekwwer/svg-workspace/commit/0651f836e4b299572f1630b26c04a71ee3c7cebb))
+
 ## 1.0.0 - 2025-02-19
 ### 🚀 New Features
 
