@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 - 2025-02-28
+### 🐞 Bug Fixes
+
+* **ci:** correct directory path in dependabot configuration ([3f3e6ca](https://github.com/Jekwwer/svg-workspace/commit/3f3e6ca2d6f2709aad0e231931b0258d091d646e))
+
 ## 1.0.1 - 2025-02-19
 ### 📦 Dependency Updates
 
