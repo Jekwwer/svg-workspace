@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.0 - 2025-03-19
+### 🚀 New Features
+
+* **markdown-lint:** integrate .gitignore for markdown lint exclusions ([ba0d8d0](https://github.com/Jekwwer/svg-workspace/commit/ba0d8d0d4c1d87602bcfa3b2bb624b66195cf557))
+
+### 📦 Dependency Updates
+
+* **pre-commit:** update pre-commit hooks to latest versions ([83f7d5d](https://github.com/Jekwwer/svg-workspace/commit/83f7d5dbdabff8a685fa0941fe41b4af7acce2b8))
+
+### 🛠️ Refactoring
+
+* **devcontainer:** remove redundant settings and specify feature versions ([1c4be30](https://github.com/Jekwwer/svg-workspace/commit/1c4be30e24b08e3743cdb8421febb38ba6bf5aca))
+* **scripts:** rename formatting script for clarity and update documentation ([f79d59e](https://github.com/Jekwwer/svg-workspace/commit/f79d59e8684ebaca99a9a91715df2c3461766cd0))
+
 ## 1.0.2 - 2025-02-28
 ### 🐞 Bug Fixes
 
