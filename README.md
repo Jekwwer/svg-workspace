@@ -60,7 +60,7 @@ The repository configurations are described in the [`STYLEGUIDE.md`][STYLEGUIDE]
   To apply formatting to your code, run:
 
   ```bash
-  npm run format:code
+  npm run format:write
   ```
 
   For a formatting check without modifying files, run:

@@ -234,7 +234,7 @@ _(Enforced by EditorConfig)_
 
 - **Prettier:**
   _(See the [Prettier][PRETTIER] section above for detailed configuration.)_
-  Prettier runs as a pre-commit hook and can also be executed via npm scripts—for example, use `npm run format:code`
+  Prettier runs as a pre-commit hook and can also be executed via npm scripts—for example, use `npm run format:write`
   to check and apply formatting.
 
 - **EditorConfig:**
