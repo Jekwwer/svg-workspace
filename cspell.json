@@ -6,7 +6,6 @@
     "*.yml",
     ".editorconfig",
     ".gitignore",
-    ".markdownlintignore",
     ".prettierrc",
     ".releaserc.js"
   ],
@@ -16,7 +15,6 @@
   "words": [
     "Evgenii",
     "Jekwwer",
-    "markdownlintignore",
     "releaserc",
     "Shiliaev",
     "styleguide"

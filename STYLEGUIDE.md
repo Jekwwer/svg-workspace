@@ -65,9 +65,8 @@ Developers who need a streamlined workspace template for SVG development only.
 │   ├── FUNDING.yml                             │   ├── # funding configuration
 │   └── PULL_REQUEST_TEMPLATE.md                │   ├── # default pull request template
 ├── .editorconfig                               ├── # editor configuration
-├── .markdownlintignore                         ├── # markdown lint ignore rules
+├── .gitignore                                  ├── # files to ignore in Git and markdown linting
 ├── .markdownlint.json                          ├── # markdown linting configuration
-├── .gitignore                                  ├── # files to ignore in Git
 ├── .pre-commit-config.yaml                     ├── # pre-commit hook configuration
 ├── .prettierrc                                 ├── # Prettier configuration
 ├── .releaserc.js                               ├── # semantic release configuration
@@ -118,9 +117,9 @@ Developers who need a streamlined workspace template for SVG development only.
 
 Key configuration files in the repository include:
 
-- `.gitignore`: Specifies files and directories to exclude from version control.
+- `.gitignore`: Specifies files and directories to exclude from version control and Markdown linting.
 - `.editorconfig`: Defines coding styles across editors.
-- `.markdownlint.json` and `.markdownlintignore`: Configures Markdown linting rules and exclusions.
+- `.markdownlint.json`: Configures Markdown linting rules.
 - `.pre-commit-config.yaml`: Specifies pre-commit hooks.
 - `.prettierrc`: Contains formatting rules.
 - `.releaserc.js`: Configures the semantic release process and versioning.
