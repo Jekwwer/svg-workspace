@@ -9,7 +9,7 @@ I actively maintain and provide security updates for the following versions:
 
 | Version            | Supported             |
 | ------------------ | --------------------- |
-| [`v1.1.0`][v1.1.0] | ✅ Actively supported |
+| [`v1.1.1`][v1.1.1] | ✅ Actively supported |
 | Older versions     | ❌ Not supported      |
 
 If your project is using an unsupported version, I recommend upgrading to the latest version
@@ -54,5 +54,5 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [security-advisories]: https://github.com/Jekwwer/svg-workspace/security/advisories
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
-[v1.1.0]: https://github.com/Jekwwer/svg-workspace/tree/v1.1.0
+[v1.1.1]: https://github.com/Jekwwer/svg-workspace/tree/v1.1.1
 [report@jekwwer.com]: mailto:report@jekwwer.com

@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.1.1 - 2025-03-22
+### 📦 Dependency Updates
+
+* **actions:** bump setup-node and cache actions to latest versions ([4b9b471](https://github.com/Jekwwer/svg-workspace/commit/4b9b471da75fda171ab44864e3af4d7789158b3d)), closes [#2](https://github.com/Jekwwer/svg-workspace/issues/2)
+* **npm:** bump cspell and prettier to latest versions ([#3](https://github.com/Jekwwer/svg-workspace/issues/3)) ([081a60c](https://github.com/Jekwwer/svg-workspace/commit/081a60ccdecd01b598f807a5bfeec4d65ce9b787))
+
+### 📖 Documentation
+
+* update issue templates and docs to improve clarity for contributors ([5aa8527](https://github.com/Jekwwer/svg-workspace/commit/5aa85272a869a114922e8dfe6abf1f45a437d4e4))
+
+### 📦 Chores
+
+* **devcontainer:** remove specific Python version dependency ([8b40e07](https://github.com/Jekwwer/svg-workspace/commit/8b40e077a0be9c55475fa5d8eec2ce3dd5177cfd))
+* **release:** remove API docs release rule ([028a6cd](https://github.com/Jekwwer/svg-workspace/commit/028a6cde5242e0f2051e20a7a76fe56db9dc8fe9))
+* **scripts:** update spell check command to align with convention ([8692792](https://github.com/Jekwwer/svg-workspace/commit/8692792ec640ccc09851f6031e8ee26cdcdb2d1f))
+
+### 🛠️ Refactoring
+
+* **pre-commit:** standardize and simplify hook names ([131a419](https://github.com/Jekwwer/svg-workspace/commit/131a4198c35041edf1b30ae910f72f1dfabdc55a))
+
 ## 1.1.0 - 2025-03-19
 ### 🚀 New Features
 

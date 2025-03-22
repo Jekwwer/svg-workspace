@@ -1,6 +1,6 @@
 {
   "name": "jekwwer-svg-workspace",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A minimal template for SVG projects with a ready-to-use devcontainer, VS Code settings, and essential repo files.",
   "keywords": [
     "github",
