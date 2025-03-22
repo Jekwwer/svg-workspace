@@ -7,6 +7,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 ## Getting Started
 
 1. **Fork the Repository**:
+
    Click the "Fork" button on the top-right corner of the repository page to create your copy.
 
 2. **Clone Your Fork**:
@@ -239,13 +240,28 @@ to use the new OAuth2 endpoints as described in the migration guide.
 
 ### Environment Configuration
 
-- The environment is primarily configured using `.devcontainer/devcontainer.json` for container setup,
-  along with VSCode settings and customizations.
+- **Container Setup:**
+  Configured with `.devcontainer/devcontainer.json` (includes VSCode settings & customizations).
 
 ## Testing and Quality Assurance
 
-This repository does not include automated tests since its primary focus is on providing a comprehensive markdown
-development environment. Quality is ensured through manual reviews.
+Testing is essential for ensuring our code stays reliable. The project uses a mix of manual and automated approaches.
+
+### Manual Testing
+
+Run the following scripts (see `package.json` for details) to verify code quality:
+
+- **spell:check:** Checks files for typos.
+- **format:check:** Verifies code formatting for non-SQL files.
+- **format:write:** Auto-formats code for non-SQL files.
+
+### Automated Testing
+
+Automated checks run via pre-commit hooks in both CI and locally:
+
+- They enforce linting and formatting standards before commits.
+- In-editor autoformatting is active through VSCode settings in `.devcontainer/devcontainer.json`
+  (`formatOnPaste` & `formatOnSave`).
 
 ## Proposing Changes
 

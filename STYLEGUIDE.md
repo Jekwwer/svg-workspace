@@ -117,15 +117,17 @@ Developers who need a streamlined workspace template for SVG development only.
 
 Key configuration files in the repository include:
 
-- `.gitignore`: Specifies files and directories to exclude from version control and Markdown linting.
-- `.editorconfig`: Defines coding styles across editors.
-- `.markdownlint.json`: Configures Markdown linting rules.
-- `.pre-commit-config.yaml`: Specifies pre-commit hooks.
-- `.prettierrc`: Contains formatting rules.
-- `.releaserc.js`: Configures the semantic release process and versioning.
-- `cspell.json`: Sets spelling rules for consistency.
-- `package.json`: Contains project metadata, scripts, and dependency definitions.
-- `package-lock.json`: Locks dependency versions to ensure consistent installations.
+- `.devcontainer/devcontainer.json`: Development container setup, including VS Code settings,
+  environment variables, and extensions.
+- `.gitignore`: Files and directories excluded from version control.
+- `.editorconfig`: Coding style settings across different editors.
+- `.markdownlint.json`: Markdown linting rules and exclusions.
+- `.pre-commit-config.yaml`: Pre-commit hooks.
+- `.prettierrc`: Formatting rules.
+- `.releaserc.js`: Semantic release process and versioning.
+- `cspell.json`: Spelling rules for consistency.
+- `package.json`: Project metadata, scripts, and dependency definitions.
+- `package-lock.json`: Locked dependency versions for consistent installations.
 
 ## Naming Conventions
 
@@ -213,7 +215,7 @@ _(Enforced by EditorConfig)_
 ### Prettier
 
 - **Purpose:**
-  The `.prettierrc` file defines the project's code formatting rules,
+  The `.prettierrc` file defines the project's code formatting rules for Prettier-supported files,
   ensuring a consistent style across various file types by specifying:
   - **Semicolons:** Enabled
   - **Quote Style:** Single quotes preferred
@@ -226,32 +228,23 @@ _(Enforced by EditorConfig)_
 - **Note:**
   Prettier is integrated locally and runs as part of a pre-commit hook to automatically format code before commits.
 
-### Linting and Formatting Tools
+### Additional Linting and Formatting Tools
 
 - **jock.svg:**
   This extension is used exclusively to format SVG files, as Prettier does not support SVG formatting.
   Configuring VS Code to associate SVG files with HTML for Prettier is not allowed.
 
-- **Prettier:**
-  _(See the [Prettier][PRETTIER] section above for detailed configuration.)_
-  Prettier runs as a pre-commit hook and can also be executed via npm scripts—for example, use `npm run format:write`
-  to check and apply formatting.
-
-- **EditorConfig:**
-  _(See the [EditorConfig][EDITORCONFIG] section above for detailed configuration.)_
-
 - **Pre-commit Hooks:**
   The project leverages pre-commit hooks to enforce code quality through automated checks.
   Key tools integrated via pre-commit include:
-
   - **pre-commit-hooks:**
     Ensures proper AST parsing, fixes line endings and trailing whitespace, manages mixed line endings,
-    detects private keys, validates YAML and JSON syntax, checks for merge conflicts, detects case conflicts,
+    detects private keys, validates YAML and JSON syntax, checks for merge conflicts, detects case conflicts
     and verifies executable shebangs.
-  - **markdownlint-cli and markdown-link-check:**
-    Enforces the style guide rules for Markdown files and validates links.
+  - **markdownlint-cli & markdown-link-check:**
+    Enforce the style guide rules for Markdown files and validate links.
   - **yamllint:**
-    Enforces the style guide rules for YAML files.
+    Enforces style guide rules for YAML files.
 
 ## Documentation
 
@@ -265,6 +258,12 @@ See [Comments and Documentation][COMMENTS-AND-DOCUMENTATION].
   The root-level `README.md` provides an overview, installation instructions, usage examples, etc.
   Additional key documents such as `CONTRIBUTING.md`, `STYLEGUIDE.md`, `SECURITY.md`,
   and `LICENSE` are also maintained at the repository root.
+
+_Note: File and directory names referenced in Markdown should always be formatted using backticks, for example:_
+
+```markdown
+Other external documentation is maintained in the `docs` directory.
+```
 
 ### Markdown References
 
@@ -324,15 +323,15 @@ See [Comments and Documentation][COMMENTS-AND-DOCUMENTATION].
 
 #### Tools
 
-_(In addition to the tools described in [Linting and Formatting Tools][LINTING-AND-FORMATTING-TOOLS])_
-
 - **cspell:**
-  A spellchecker designed for code and Markdown files.
+  A spellchecker tailored for code and Markdown files.
   It runs as a pre-commit hook and can also be executed via the npm script `npm run spell:check`.
 
-#### Versioning Documentation
+- **markdown-link-check:**
+  Validates hyperlinks within Markdown files and runs as a pre-commit hook.
 
-- Documentation versioning is not implemented yet but will be managed using MkDocs in alignment with project releases.
+- **markdownlint:**
+  Enforces consistent style and formatting in Markdown documents. It runs as a pre-commit hook.
 
 #### Consistency and Updates
 
@@ -389,11 +388,8 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 
 [COMMENTS-AND-DOCUMENTATION]: #comments-and-documentation
 [CONTRIBUTING]: CONTRIBUTING.md
-[EDITORCONFIG]: #editorconfig
 [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
 [LICENSE]: LICENSE
-[LINTING-AND-FORMATTING-TOOLS]: #linting-and-formatting-tools
-[PRETTIER]: #prettier
 [SCOPE]: #scope
 [SECURITY]: SECURITY.md
 [discussions]: https://github.com/Jekwwer/svg-workspace/discussions
