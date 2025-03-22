@@ -74,7 +74,7 @@ The repository configurations are described in the [`STYLEGUIDE.md`][STYLEGUIDE]
 To run spell checking, execute:
 
 ```bash
-npm run check:spelling
+npm run spell:check
 ```
 
 Spell checking is also configured as a pre-commit hook. Adjust the `cspell.json` configuration file if needed.

@@ -22,7 +22,7 @@
   "license": "MIT",
   "author": "Jekwwer",
   "scripts": {
-    "check:spelling": "cspell '**/*.md' --gitignore --cache",
+    "spell:check": "cspell '**/*.md' --gitignore --cache",
     "format:check": "prettier --check --config .prettierrc .",
     "format:write": "prettier --write --config .prettierrc .",
     "release": "semantic-release"

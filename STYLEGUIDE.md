@@ -328,7 +328,7 @@ _(In addition to the tools described in [Linting and Formatting Tools][LINTING-A
 
 - **cspell:**
   A spellchecker designed for code and Markdown files.
-  It runs as a pre-commit hook and can also be executed via the npm script `npm run check:spelling`.
+  It runs as a pre-commit hook and can also be executed via the npm script `npm run spell:check`.
 
 #### Versioning Documentation
 
