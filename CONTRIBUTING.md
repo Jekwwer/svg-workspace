@@ -245,7 +245,7 @@ to use the new OAuth2 endpoints as described in the migration guide.
 
 ## Testing and Quality Assurance
 
-Testing is essential for ensuring our code stays reliable. The project uses a mix of manual and automated approaches.
+The project uses a mix of manual and automated approaches.
 
 ### Manual Testing
 
