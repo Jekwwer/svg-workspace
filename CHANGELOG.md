@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.2 - 2025-03-23
+### 🐞 Bug Fixes
+
+* **editorconfig:** correct comments in each empty filetype section ([25d5ab9](https://github.com/Jekwwer/svg-workspace/commit/25d5ab95de96250163ece4d5faa97b03f46f1431))
+
+### 📦 Dependency Updates
+
+* **pre-commit:** bump yamllint to v1.37.0 ([790e033](https://github.com/Jekwwer/svg-workspace/commit/790e0334454ca807774d3837003caccfbd844240))
+
+### 📖 Documentation
+
+* **CONTRIBUTING.md:** simplify testing section in CONTRIBUTING.md ([3dae185](https://github.com/Jekwwer/svg-workspace/commit/3dae185919b8d92589a187e1451203faa7aa3199))
+
 ## 1.1.1 - 2025-03-22
 ### 📦 Dependency Updates
 
