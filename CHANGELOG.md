@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.3 - 2025-03-25
+### 🐞 Bug Fixes
+
+* **ci:** align release command with package.json scripts ([4a4d348](https://github.com/Jekwwer/svg-workspace/commit/4a4d3482c7dd9f29987136759204c2c48ba58ab8))
+
+### 📖 Documentation
+
+* **STYLEGUIDE.md:** clarify Prettier integration information ([802613b](https://github.com/Jekwwer/svg-workspace/commit/802613b03f60977200a671ee480cb69b5f529b75))
+
 ## 1.1.2 - 2025-03-23
 ### 🐞 Bug Fixes
 
