@@ -226,7 +226,8 @@ _(Enforced by EditorConfig)_
     _(Note: Overrides are applied for CSS, HTML, and Markdown files with a print width of 120,
     while JSON files have no enforced limit)_
 - **Note:**
-  Prettier is integrated locally and runs as part of a pre-commit hook to automatically format code before commits.
+  Prettier is integrated as an auto-formatter in VS Code and runs as part of a pre-commit hook
+  to automatically format code before commits.
 
 ### Additional Linting and Formatting Tools
 
